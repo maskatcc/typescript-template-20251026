@@ -4,8 +4,15 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky",
     "build": "tsc",
     "test": "vitest --config vitest.config.ts"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint",
+      "tsc --noEmit"
+    ]
   },
   "keywords": [],
   "author": "",
