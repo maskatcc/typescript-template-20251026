@@ -2,5 +2,5 @@
 // console.log("Please edit as needed.")
 
 export function hello(): string {
-  return "Hello, TypeScript template."
+  return 'Hello, TypeScript template.'
 }
