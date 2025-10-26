@@ -39,8 +39,8 @@
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
-    "skipLibCheck": true,
+    "skipLibCheck": true
   },
   // ルートディレクトリの設定（例：vitest.config.ts）はビルド対象外にする
-  "include": ["./src/**/*"],
+  "include": ["./src/**/*"]
 }
